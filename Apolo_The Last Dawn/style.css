@@ -1,0 +1,260 @@
+
+.titulo {
+    text-align: center;
+}
+
+
+
+header img {
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+
+    width: 100% !important;
+
+    max-width: 540px !important;
+}
+
+.logoShadow {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    z-index: 1;
+}
+
+
+.tldtable ul{
+
+    padding-top: 15px;
+    
+  display: flex;
+
+  border-color: #fff;
+
+  border-width: 2px;
+
+  margin-left: 10px !important;
+
+  align-content: center;
+
+  
+  
+}
+
+.tldtable a{
+    padding-left: auto !important;
+    padding-right: auto !important;    
+}
+
+.tab-content h3{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+
+    color: white !important;
+
+    text-shadow: 2px 2px rgb(23, 23, 23) !important;
+}
+
+.tldtable .nav-tabs{
+    display : flex;
+    justify-content : center; 
+}
+
+
+
+.tldCharIcon {
+    background-color: transparent;
+    width: 40px;
+}
+
+body {
+
+    padding: 30px;
+
+    background-color: #0ab7e3 !important;
+
+    color: white ! important;
+
+    font-size: 80px;
+
+    font-family: 'Press Start 2P', cursive;
+    padding: auto;
+
+    background: url(images/tld\ love.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.mask1 {
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}
+
+
+ul {
+    list-style-type: circle;
+    background-color: none;
+    border: none;   
+    
+    border-width: 0px;
+}
+
+#ariana li a:hover {
+    background-color: #56c523 !important;
+}
+
+.leonardt li a:hover {
+    background-color: #f3f3f3 !important;
+}
+
+.tristan li a:hover {
+    background-color: #f7d138 !important;
+}
+
+.shop{
+
+    margin-top: 65px;
+    padding-bottom: 10px;
+
+    max-width: 500px;
+
+    padding-left: 20px;
+    background-color:  rgba(27, 27, 27, 0.465);    
+}
+
+.shop h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+
+    color: white !important;
+
+    text-shadow: 2px 2px rgb(23, 23, 23) !important;
+}
+
+.shop h2{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+
+    color: white !important;
+    margin-top: -2px;
+
+    text-shadow: 2px 2px rgb(23, 23, 23) !important;
+}
+
+.checkmark {
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(0, 0, 0, 0.13);
+  }
+  
+
+.shop label{
+    font-family: 'Press Start 2P', cursive;
+    font-style: normal !important;    
+}
+
+.shop p{
+    margin-top : 0px;
+    padding-top: -10px;
+
+    padding-left: 25px;
+}
+
+
+
+h3 {
+    font-family: 'Press Start 2P', cursive !important;
+
+}
+
+
+p {
+
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 500;
+    font-size: 15px;
+
+    margin-bottom: -10px;
+    margin-top: -10px;
+
+    margin-left: 10px;
+
+    text-shadow: 2px 2px rgb(23, 23, 23) !important;
+
+}
+
+ a {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+
+    color: white !important;
+
+    text-shadow: 2px 2px rgb(23, 23, 23) !important;
+}
+
+
+
+footer .flex{
+
+    display: flex;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: fit-content;
+
+    justify-content: center;    
+
+    margin-top: 30px;
+
+    padding: 5px;
+
+
+    border: rgba(27, 27, 27, 0) solid 2px;
+    border-radius: 5px;
+
+    background-color:  rgba(27, 27, 27, 0.465);
+
+    position : inherit;
+    margin-bottom : 0px;
+
+}
+
+footer a{  
+    margin: 5px;
+}
+
+.trail {
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;    
+    background: rgb(248, 248, 248);
+    position: fixed;
+    animation: come 1.2s ease forwards;    
+
+    pointer-events: none;   
+}
+
+.hide{ display: none; }
+
+@keyframes come{
+    0%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    30%{
+        transform: scale(1);       
+    }    
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(0) translate(5px);
+        opacity: 0;
+    }
+}
